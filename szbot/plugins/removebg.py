@@ -41,20 +41,20 @@ async def is_app_admin(chat, user):
 
 TEXT=f"""🗑️** Background removed Successfully**✅
 ◇───────────────◇
-🔥 **Removed  by** : [ 🎨 Imᥲgᥱ Tooᥣs Bot](https://t.me/szimagebot)
-⚡️ **Powered By**  : `【SZ™】`
+🔥 **Removed  by** : [ Nipun Contact Bot](https://t.me/NiupunDinujaya_bot)
+⚡️ **Powered By**  : `【 NIPUN 】`
 ◇───────────────◇
-©2021[【SZ™】 team ](https://t.me/szteambots) **All Right Reserved**⚠️️
+©2022 **All Right Reserved**⚠️️
 """    
     
     
 BUTTONS = InlineKeyboardMarkup(	
       [	
         [	
-        InlineKeyboardButton(text="➕ Add me to your group ➕", url=f"http://t.me/szimagebot?startgroup=botstart") 	
+        InlineKeyboardButton(text="➕ Add me to your group ➕", url=f"http://t.me/NiupunDinujaya_bot?startgroup=botstart") 	
         ],	
         [	
-         InlineKeyboardButton(text="🗣️Join my updates ", url=f"https://t.me/sszteambots") 	
+         InlineKeyboardButton(text=" Owner ", url=f"https://t.me/NiupunDinujaya") 	
         ]	
       ]      	
     )    
@@ -62,7 +62,7 @@ BUTTONS = InlineKeyboardMarkup(
 
 @sz.on(events.NewMessage(pattern='^/rmbg'))
 async def _(event):
-    HELP_STR = "use `/rmbg` as reply to a media.\nJoin my updates channel @sl_bot_zone "
+    HELP_STR = "use `/rmbg` as reply to a media. "
     if event.fwd_from:
         return
     if event.is_group:
@@ -113,7 +113,7 @@ async def _(event):
         await gg.delete()
     else:
         await gg.edit(
-            "remove.bg API returned Errors. Please report to @slbotzone\n`{}` ".format(
+            "remove.bg API returned Errors.".format(
                 output_file_name.content.decode("UTF-8")
             )
         )
