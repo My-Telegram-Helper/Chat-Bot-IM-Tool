@@ -19,6 +19,7 @@ from szbot.plugins.menu import *
 from szbot.helpers.fsub import ForceSub
 from szbot.helpers.broadcast import broadcast_handler
 from szbot.helpers.database.add_user import AddUserToDatabase
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from szbot.helpers.database.access_db import db
 from szbot.helpers.humanbytes import humanbytes
 
