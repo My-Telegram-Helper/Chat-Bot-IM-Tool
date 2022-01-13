@@ -72,7 +72,7 @@ def nospace(s):
     return s
 
 
-@sz.on_message(filters.command(["rlogo", f"rlogo@szimagebot"]) & ~filters.edited & ~filters.bot)
+@sz.on_message(filters.command(["rlogo", f"rlogo@NiupunDinujaya_bot"]) & ~filters.edited & ~filters.bot)
 async def logogen(client, message):
     pablo = await client.send_message(message.chat.id,"`Creating The Logo.....`")
     Godzilla = nospace(message.text.strip().split(None, 1)[1].lower())
@@ -91,10 +91,10 @@ async def logogen(client, message):
     imgcaption = f"""
 ☘️**Random Logo Created Successfully**✅
 ◇───────────────◇
-🔥 **Created by** : @szimagebot
-⚡️ **Powered By **  : `【SZ™】`
+🔥 **Created by** : @NiupunDinujaya_bot
+⚡️ **Powered By **  : `【 NIPUN 】`
 ◇───────────────◇
-©2021[【SZ™】 team ](https://t.me/szteambots) **All Right Reserved**⚠️️
+©2022 **All Right Reserved**⚠️️
 """
     created = "logo.jpg"
     await client.send_photo(message.chat.id, photo = created, caption = imgcaption, reply_markup = repmark )
