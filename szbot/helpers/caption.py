@@ -3,19 +3,19 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 imgcaption = """
 ☘️ **Random Logo Created Successfully**✅
 ◇───────────────◇
-🔥 **Created by** :  [🎨 Imᥲgᥱ Tooᥣs Bot](https://t.me/szimagebot)
+🔥 **Created by** :  [Nipun Contact Bot](https://t.me/NiupunDinujaya_bot)
 🌷 **Requestor** : {message.from_user.username}
-⚡️ **Powered By **: `【SZ™】´
+⚡️ **Powered By **: `【NIPUN】´
 ◇───────────────◇
-©2021【SZ™】 team  **All Right Reserved**⚠️️
+©2022  **All Right Reserved**⚠️️
 """
 repmark = InlineKeyboardMarkup(
       [
         [
-        InlineKeyboardButton(text="➕Add me to your group ➕", url=f"http://t.me/szimagebot?startgroup=botstart") 
+        InlineKeyboardButton(text="➕Add me to your group ➕", url=f"http://t.me/NiupunDinujaya_bot?startgroup=botstart") 
         ],
         [
-         InlineKeyboardButton(text="🗣️Join my updates", url=f"https://t.me/szteambots") 
+         InlineKeyboardButton(text="Owner", url=f"https://t.me/NiupunDinujaya") 
         ]
       ]      
     )
