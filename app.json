@@ -30,7 +30,12 @@
         "BOT_OWNER": {
             "description": "Your telegram id",
             "value": ""
-        }
+        },
+        "REM_BG_API_KEY": {
+            "description": "Remove.bg api",
+            "value" : ""
+        },
+        
     },
     "addons": [],
     "buildpacks": [
