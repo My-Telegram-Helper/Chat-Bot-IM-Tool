@@ -15,11 +15,11 @@ START_BTN = InlineKeyboardMarkup(
                     InlineKeyboardButton("🆘️ Help 🆘️", callback_data="helpmenu")
                 ],
                 [
-                    InlineKeyboardButton("🗣Updates", url="https://t.me/szteambots"),
-                    InlineKeyboardButton("👥Support", url="https://t.me/slbotzone")
+                    InlineKeyboardButton("👻 Owner 👻", url="https://t.me/NiupunDinujaya"),
+                    InlineKeyboardButton("🤦‍♂️ Support 🤦‍♂️", url="https://t.me/MrItzme")
                 ],
                 [
-                    InlineKeyboardButton("➕Add me to your group ➕", url="http://t.me/szimagebot?startgroup=botstart") 
+                    InlineKeyboardButton("➕ Add me to your group ➕", url="http://t.me/NiupunDinujaya_bot?startgroup=botstart") 
                 ]
             ]
         )
@@ -36,7 +36,7 @@ GROUP_BTN = InlineKeyboardMarkup(
         )
 
 HELP_TEXT = f"""
-**🆘️This is @szimagebot Help Menu 🆘️**
+**🆘️This is @NiupunDinujaya_bot Help Menu 🆘️**
 
 ⚠️️Read this before useing me ...
 
@@ -48,7 +48,7 @@ HELP_TEXT = f"""
 ♞/text reply to text
 ♞/rlogo logo name
 
-©2021[<sz/> Team ](https://t.me/szteambots)✌️
+©2022 ✌️
 """
 
 BACKTOHOME = InlineKeyboardMarkup(
@@ -114,7 +114,7 @@ Then You Can Use Our Bot For limited  To Create logo 💫😊**
 CLOSE_BTN =  InlineKeyboardMarkup(
         [
         [
-        InlineKeyboardButton(text="🗣️<sz/>team bot's", url=f"https://t.me/szteambots")    
+        InlineKeyboardButton(text="Owner", url=f"https://t.me/NiupunDinujaya")    
         ]
         ]      
     )
@@ -124,7 +124,7 @@ FSUB_TEXT = " **You cant use me untill subscribe our updates channel** ☹️\n\
 FSUB_BTN = InlineKeyboardMarkup(
         [
         [
-        InlineKeyboardButton(text="🗣 Join our update Channel ", url=f"https://t.me/szteambots") 
+        InlineKeyboardButton(text="🗣 Join our update Channel ", url=f"https://t.me/ankivectorupdates") 
         ]
         ]      
     )
